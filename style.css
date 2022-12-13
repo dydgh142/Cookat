@@ -9,6 +9,10 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 body{
     background-color: rgb(245, 245, 245);
     width: 100%;
@@ -85,17 +89,75 @@ body{
 
 /*@@@@@@@@@ 메인 @@@@@@@@@@@@@@@ */
 main{
+    position: relative;
     width: 500px;
-    background-color: aquamarine;
     height: 1000px;
     margin: 0 auto;
 }
 
+/* 광고 */
 .adv{
-    width: 500px;
+    height: 278px;
 }
 
+/* 메뉴 */
+.menu{
+    display: block;
+    height: 156px;
+    margin: 0;
+}
 
+.menu-list{
+    background-color: aliceblue;
+    display: flex;
+    padding: 19px 14px;
+    overflow: hidden;
+}
+
+.menu-list-item{
+    display: inline;
+    font-size: 13px;
+    color: #46433f;
+    text-align: center;
+    line-height: 19px;
+    padding-left: 20px;
+}
+
+.item-thumbnail{
+    margin: 0 5px;
+}
+
+.menu::after{
+    content: "";
+    display: block;
+    border-top: 1px solid rgb(206, 206, 206);
+}
+
+/* 메인 바겐 세일 */
+.main-bargain{
+
+}
+
+.main-bargain-title{
+    margin-top: 40px;
+    padding: 0 18px;
+}
+
+.main-title{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 26px;
+    color: #46433f;
+}
+
+.main-bargain-video{
+    padding: 10px 15px;
+    
+}
+
+.main-bargain-video img{
+    border-radius: 10px;
+}
 
 
 /*@@@@@@@@@ 슬로건 @@@@@@@@@@@@@@@ */
