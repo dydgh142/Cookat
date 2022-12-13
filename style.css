@@ -1,0 +1,162 @@
+/* 기본 스타일 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    margin: 0;
+    margin-top: 104px;
+}
+
+/*@@@@@@@@@ 헤더 @@@@@@@@@@@@@@@ */
+.title{
+    width: 500px;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.fix-header{
+    display: flex;
+    
+    background-color: rgb(248, 248, 248);
+}
+
+.logo{
+    background: url(/assets/logo-main.svg) no-repeat 0 0;
+    background-position: 20px 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.logo-finder{
+    background: url(./assets/ic-24-finder.svg) no-repeat 0 0;
+    background-position: 0 18px;
+    width: 30px;
+    margin-left: 250px;
+}
+
+.fix-categori{
+    height: 44px;
+    background-color:rgb(248, 248, 248);
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.categori-list{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.categori-list li{
+    display: inline;
+    width: 40px;
+    height: 44px;
+    line-height: 50%;
+    margin: 0 5px;
+}
+
+.cate > a{
+    background-color: transparent;
+    border: 0;
+    color: #323232;
+    
+}
+
+.is-select.cate{
+    font-weight: 700;
+}
+
+
+
+
+
+/*@@@@@@@@@ 메인 @@@@@@@@@@@@@@@ */
+main{
+    width: 500px;
+    background-color: aquamarine;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.adv{
+    width: 500px;
+}
+
+
+
+
+/*@@@@@@@@@ 슬로건 @@@@@@@@@@@@@@@ */
+.slogan{
+    margin-bottom: 60px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+
+/*@@@@@@@@@ 푸터 @@@@@@@@@@@@@@@ */
+footer{
+    width: 500px;
+    height: 64px;
+    background-color: rgb(252, 252, 252);
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-inner-item{
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    text-align: center;
+    color: #ff5833;
+    background-size: 22px;
+    line-height: 95px;
+}
+
+.footer-inner-item li{
+    display: inline-block;
+    width: 95px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.home{
+    background: url(./assets/ic-24-home.svg) no-repeat 0 0;
+    background-position: 50% 30%;
+}
+
+.video{
+    background: url(./assets/ic-16-clock-orange-full.svg) no-repeat 0 0;
+    background-position: 50% 30%;
+}
+.categori{
+    background: url(./assets/ic-black-category.svg) no-repeat 0 0;
+    background-position: 50% 30%;
+}
+.cart{
+    background: url(./assets/ic-cart-gray-v2.svg) no-repeat 0 0;
+    background-position: 50% 30%;
+}
+.mycookat{
+    background: url(./assets/ic-24-mycookat-black.svg) no-repeat 0 0;
+    background-position: 50% 30%;
+}
