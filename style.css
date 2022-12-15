@@ -22,12 +22,14 @@ body{
 
 /*@@@@@@@@@ 헤더 @@@@@@@@@@@@@@@ */
 .title{
+    
     width: 500px;
     position: fixed;
     margin: 0 auto;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 
 .fix-header{
@@ -81,6 +83,8 @@ body{
 
 .is-select.cate{
     font-weight: 700;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #ff5833;
 }
 
 
@@ -111,7 +115,7 @@ main{
     background-color: aliceblue;
     display: flex;
     padding: 19px 14px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .menu-list-item{
